@@ -1,0 +1,40 @@
+.home {
+  text-align: center;
+}
+
+.head {
+  padding: 0px;
+  border-bottom: 1px solid grey;
+  margin: 1px;
+}
+
+.box {
+  padding: 8px;
+  border: 1px solid grey;
+  margin: 10px;
+}
+
+.home {
+  padding: 5px;
+}
+
+#footer {
+  text-align: center;
+  padding: 3px;
+  border-top: 1px solid grey;
+  margin-top: 3px;
+}
+
+#intro {
+  padding: 7px;
+}
+
+#intro p {
+  text-indent: 8px;
+}
+
+/* Example Styles */
+
+#css-example h {
+  color = red;
+}

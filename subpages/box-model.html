@@ -6,7 +6,7 @@
     <script src="js/script.js" type="../text/javascript"></script>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/styles.css" rel="stylesheet">
-    <title>Block Elements</title>
+    <title>Code Wiki- Box Model</title>
   </head>
   <body>
     <div class="container">
@@ -14,59 +14,40 @@
         <a href="../index.html">Home</a>
       </div>
       <div class="head">
-        <h1>Block Elements</h1>
+        <h1>Box Model</h1>
       </div>
       <div id="intro">
       <p>
-        Block elements generally can contain text, data, inline elements, or other block-level elements. They make up most of the major content of a page.
+        The box model is the specification that defines how a box and its attributes relate to each other. It wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
       </p>
+      <ul>
+        <li>Content - The content of the box, where text and images appear</li>
+        <li>Padding - Clears an area around the content. The padding is transparent</li>
+        <li>Border - A border that goes around the padding and content</li>
+        <li>Margin - Clears an area outside the border. The margin is transparent</li>
+      </ul>
     </div>
       <div class="box">
         <div class="head">
           <h2>Example</h2>
         </div>
         <div>
-          <h1>Main Heading</h1>
-          <h2>Sub Heading</h2>
-          <h6>Smallest Heading</h6>
-          <p>
-            Paragraph Paragraph Paragraph Paragraph Paragraph
-          </p>
-          <ul>
-            <li>Unordered List</li>
-            <li>Unordered List</li>
-            <li>Unordered List</li>
-          </ul>
-          <ol>
-            <li>Ordered List</li>
-            <li>Ordered List</li>
-            <li> Ordered List</li>
-          </ol>
+          <img src="../img/boxmodel.png" alt="" />
         </div>
       </div>
       <div class="box">
         <div class="head">
-          <h2>Code</h2>
+          <h2>CSS Code</h2>
         </div>
         <div>
           <pre>
             <code>
-              &lt;h1>Main Heading&lt;/h1>
-              &lt;h2>Sub Heading&lt;/h2>
-              &lt;h6>Smallest Heading&lt;/h6>
-              &lt;p>
-                Paragraph Paragraph Paragraph Paragraph Paragraph
-              &lt;/p>
-              &lt;ul>
-                &lt;li>Unordered List&lt;/li>
-                &lt;li>Unordered List&lt;/li>
-                &lt;li>Unordered List&lt;/li>
-              &lt;/ul>
-              &lt;ol>
-                &lt;li>Ordered List&lt;/li>
-                &lt;li>Ordered List&lt;/li>
-                &lt;li>Ordered List&lt;/li>
-              &lt;/ol>
+              div {
+                background-color: red;
+                padding: 5px;
+                border: 5px solid green;
+                margin: 5px;
+              }
             </code>
           <pre>
         </div>
